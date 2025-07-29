@@ -1,5 +1,6 @@
 # WWS – Wes´s Window Switcher
 
+
 **A modern, customizable Alt+Tab replacement overlay for Windows power users.**
 
 ![screenshot-placeholder](docs/screenshot.png)
