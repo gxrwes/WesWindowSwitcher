@@ -1,0 +1,6 @@
+[submodule "WWS/imgui"]
+	path = WWS/imgui
+	url = https://github.com/ocornut/imgui.git
+[submodule "WWS/vendor/imgui"]
+	path = WWS/vendor/imgui
+	url = https://github.com/ocornut/imgui.git
