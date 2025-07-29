@@ -1,4 +1,4 @@
-# WWS – Windows Window Switcher
+# WWS – Wes´s Window Switcher
 
 **A modern, customizable Alt+Tab replacement overlay for Windows power users.**
 
