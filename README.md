@@ -69,5 +69,56 @@ cmake --build . --config Release
 
 ```
 
-## Exiting
-Just kill it in the taskmanager
+## Usage Guide
+
+### Default Keybinds
+
+| Key                               | Action                                         |
+|------------------------------------|------------------------------------------------|
+| **LeftAlt + tap LeftShift**        | Instantly switch to the previous window (quick tap) |
+| **LeftAlt + hold LeftShift**       | Show overlay with list of windows (hold)            |
+| **LeftShift (held while overlay is up)** | Cycle through open windows                 |
+| **Release LeftAlt**                | Commit selection and switch to chosen window   |
+
+You can change these hotkeys from the in-app settings overlay.
+
+---
+
+### How to Use WWS
+
+1. **Quick Switch:**  
+   - Press and release **LeftAlt** and **tap LeftShift** (just like double-tapping Alt-Tab).
+   - Instantly switches to your previously used window—fast!
+
+2. **Window List Overlay:**  
+   - Hold **LeftAlt** and then **hold LeftShift** for a split second.
+   - The WWS overlay will appear, showing a list of all open windows.
+   - While holding **LeftAlt**, tap or hold **LeftShift** to cycle through the list.
+   - Release **LeftAlt** to switch to the highlighted window.
+
+3. **Settings Panel:**  
+   - In the overlay, click the ⚙️ (gear) icon to open settings.
+   - Change hotkeys, tap/hold timeouts, or overlay timeout.
+   - Click **Save Settings** to persist your preferences to disk.
+
+---
+
+### Exiting
+
+To exit WWS, simply **kill it in Task Manager**.  
+There is currently no tray icon or UI "exit" button.
+
+---
+
+### Notes
+
+- **Windows state is preserved:**  
+  Switching to a maximized window keeps it maximized, just like regular Alt-Tab.
+- **No installation required:**  
+  Just run `wws.exe`—no admin required, no registry modifications.
+- **Runs in background:**  
+  WWS uses a global low-level keyboard hook and is lightweight (low CPU).
+
+---
+
+For advanced hotkey customizations or troubleshooting, see the [Settings](#settings) section.
